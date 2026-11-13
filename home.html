@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NowStation | Estúdio de jogos</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@600;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topo">
+    <a class="logo" href="#inicio">NowStation</a>
+    <nav>
+      <a href="#jogos">Jogos</a>
+      <a href="#sobre">Sobre</a>
+      <a href="#contacto">Contacto</a>
+      <a href="./index.html">Sair</a>
+    </nav>
+  </header>
+
+  <section class="capa" id="inicio">
+    <video class="capa-video" autoplay muted loop playsinline>
+      <source src="assets/game-trailer.mp4" type="video/mp4">
+    </video>
+    <div class="capa-sombra"></div>
+    <div class="capa-texto">
+      <h1>Jogos feitos para jogar de novo.</h1>
+      <p>A NowStation cria jogos para telemóvel e computador.</p>
+      <a class="botao" href="#jogos">Ver os nossos jogos</a>
+    </div>
+  </section>
+
+  <main>
+    <section id="jogos">
+      <h2>Os nossos jogos</h2>
+      <div class="grelha">
+        <article class="cartao">
+          <p class="genero">Corrida · PC e telemóvel</p>
+          <h3>Neon Drift</h3>
+          <p>Corridas rápidas em cidades iluminadas. Derrape nas curvas, ganhe boost e desafie amigos em partidas de 3 minutos.</p>
+        </article>
+        <article class="cartao">
+          <p class="genero">RPG · PC</p>
+          <h3>Dungeon Echo</h3>
+          <p>Explore masmorras que mudam a cada partida. Escolha a sua classe, encontre equipamento e enfrente chefes cada vez mais fortes.</p>
+        </article>
+        <article class="cartao">
+          <p class="genero">Estratégia · PC e telemóvel</p>
+          <h3>Skyline Siege</h3>
+          <p>Construa a sua base, treine tropas e defenda a cidade contra ondas de ataque. Cada decisão conta.</p>
+        </article>
+        <article class="cartao">
+          <p class="genero">Simulação · telemóvel</p>
+          <h3>Pixel Harvest</h3>
+          <p>Cuide da sua quinta em pixel art: plante, colha, troque produtos e faça crescer a sua aldeia ao seu ritmo.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="sobre">
+      <h2>Sobre a NowStation</h2>
+      <p class="texto">Somos uma equipa pequena que desenha, programa e publica os seus próprios jogos. Acreditamos em jogos simples de começar, divertidos de dominar e prontos para jogar em qualquer ecrã.</p>
+    </section>
+
+    <section id="contacto">
+      <h2>Contacto</h2>
+      <p class="texto">Quer testar os nossos jogos ou falar com a equipa?</p>
+      <a class="botao" href="mailto:contacto@nowstation.com">contacto@nowstation.com</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 NowStation</p>
+  </footer>
+</body>
+</html>
